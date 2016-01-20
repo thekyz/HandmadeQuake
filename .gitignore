@@ -21,9 +21,10 @@ $RECYCLE.BIN/
 # Operating System Files
 # =========================
 
-# OSX
+# Linux
 # =========================
 
+linquake
 *.o
 
 # OSX
