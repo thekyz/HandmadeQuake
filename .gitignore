@@ -24,6 +24,11 @@ $RECYCLE.BIN/
 # OSX
 # =========================
 
+*.o
+
+# OSX
+# =========================
+
 .DS_Store
 .AppleDouble
 .LSOverride
