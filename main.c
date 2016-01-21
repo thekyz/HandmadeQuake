@@ -70,7 +70,7 @@ static void handleEvent(Display *dpy, int s, Window mainwindow, Atom atom, bool 
       {
         char buf[128] = {0};
         KeySym keysym;
-        int len = XLookupString(&e->xkey, buf, sizeof buf, &keysym, NULL);
+        XLookupString(&e->xkey, buf, sizeof buf, &keysym, NULL);
         if (keysym == XK_Escape)
         {
           IsRunning = false;
