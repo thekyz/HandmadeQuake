@@ -60,3 +60,4 @@ HandmadeQuake/Debug/
 *.idb
 *.exe
 *.opendb
+/main
