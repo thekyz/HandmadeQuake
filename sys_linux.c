@@ -2,7 +2,6 @@
 #include "quakedef.h"
 #include "stdio.h"
 
-
 int32 main(int argc, char **argv)
 {
     COM_HandleCmdLine(argc, argv);
